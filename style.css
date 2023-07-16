@@ -47,5 +47,54 @@ nav li a:hover{
     font-weight: 500;
     color: #424242;
     text-decoration: none;
-    
+
+}
+.banner-content{
+ max-width: 800px;
+ margin: 0 auto;
+ text-align: center;
+ 
+
+}
+.banner-tittle{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #424242;
+    text-decoration: none;
+    margin-bottom: 20px;
+
+
+
+}
+.banner-paragraph{
+    font-size: 1rem;
+    color: #727277;
+}
+.btn-primary{
+    background: #FF900E;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 7px;
+    padding: 20px 20px;
+    cursor: pointer;
+    border:0px; 
+ 
+}
+.banner-content img{
+    margin-top: 20px;
+    width:100%;
+}
+/* responsive media query */
+
+
+@media screen and (max-width: 576px){
+
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+
+    }
 }
